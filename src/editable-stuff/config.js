@@ -73,7 +73,7 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
@@ -102,13 +102,17 @@ const skills = {
   hardSkills: [
     { name: "Java(Spring Boot)", value: 90 },
     { name: "Python", value: 10 },
-    { name: "SQL", value: 75 },
+    { name: "SQL(Oracle/Mysql/Postgres)", value: 75 },
     { name: "분석/설계", value: 85 },
     { name: "C/C++", value: 45 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 50 },
     { name: "HTML/CSS", value: 75 },
-    { name: "C#", value: 80 },
+    { name: "Docker", value: 80 },
+    { name: "Linux", value: 70 },
+    { name: "Hadoop/Hbase", value: 20 },
+    { name: "PHP", value: 30 },
+    { name: "AWS", value: 30 },
   ],
   softSkills: [
     { name: "목표 지향", value: 80 },
@@ -117,7 +121,6 @@ const skills = {
     { name: "적응력", value: 85 },
     { name: "문제 해결 능력", value: 75 },
     { name: "공감 능력", value: 90 },
-    { name: "Organization", value: 70 },
     { name: "창의성", value: 90 },
   ],
 };
@@ -132,7 +135,7 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
