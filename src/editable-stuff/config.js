@@ -9,28 +9,22 @@ const mainBody = {
   firstName: "김",
   middleName: "",
   lastName: "동석",
-  message: " 개발자 포트폴리오 ",
+  message: "소프트웨어 엔지니어는 컴퓨터와 사람 사이의 통역가입니다. 통역가는 양쪽 언어의 `이해`와 `표현`에 모두 능란해야 합니다",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/bluedskim",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fa-youtube",
+      url: "https://www.youtube.com/user/bluedskim/videos",
     },
     {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      image: "fa-blogger",
+      url: "https://bluedskim.github.io/",
     },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+    /*
+    */
   ],
 };
 
@@ -50,12 +44,12 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
+  heading: "성장이 즐거운 개발자",
   imageLink: require("../editable-stuff/내얼굴 일러스트.jpeg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "IT기술은 정치/경제/문화 전분야의 변화를 선도하고 있습니다. IT기술은 세상을 더 편하고 이롭게 만듭니다. 저는 IT분야에서 일원으로 활동하고 있다는 것에 자부심을 느끼고 있습니다.",
+  resume: "static/media/finmart1.bc324fd0.png",
 };
 
 // PROJECTS SECTION
@@ -65,45 +59,46 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  heading: "공개 프로젝트",
+  gitHubUsername: "bluedskim", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["javaDesignPatterns", "egloosexodus", "r2dbcVsMybatis"],
 };
 
 // Leadership SECTION
 const leadership = {
   show: true,
-  heading: "Leadership",
+  heading: "'태도는 큰 차이를 가져올 수 있는 작은 요소다'",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "소프트웨어 프로젝트에서 팀워크는 가장 소중한 재산입니다. 프로젝트는 성공했지만 멤버를 잃는다거나 구성원 개개인의 발전과 팀워크의 향상이 없다면 성공한 프로젝트라고 할 수 없다고 생각합니다.가끔 지식/기술/경험을 독점하려는 개발자를 가끔 볼 수 있습니다. 하지만, 조직에서는 지식과 경험은 나눌 때 더욱 커집니다. 왜냐하면, 지식은 move 되는 것이 아니라 copy 되는 것이기 때문입니다. 저는 제가 가진 지식과 경험들을 후배, 동료와 나누려고 항상 노력합니다.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/finmart1.png"), 
+      label: "대출상품 비교-핀마트 ",
+      paragraph: "Android/IOS, Hybrid" 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/kcl_togo1.png"), 
+      label: "O2O서비스-TOGO", 
+      paragraph: "Android/IOS, Angular" 
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width:"100%",
+    height:"100%"
   }
 };
 
 // SKILLS SECTION
 const skills = {
   show: true,
-  heading: "Skills",
+  heading: "기술",
   hardSkills: [
     { name: "Java(Spring Boot)", value: 90 },
     { name: "Python", value: 10 },
     { name: "SQL(Oracle/Mysql/Postgres)", value: 75 },
     { name: "분석/설계", value: 85 },
+    { name: "전산영어", value: 90 },
     { name: "C/C++", value: 45 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 50 },
@@ -128,10 +123,10 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "연락처",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "아래의 이메일로 연락주십시오",
+  email: "bluedskim@gmail.com",
 };
 
 const experiences = {
@@ -139,15 +134,20 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Tech Lead/Developer',// Here Add Company Name
+      companylogo: require('../assets/img/kwareLogo.png'),
+      date: '분석/설계/개발, Java/Spring, Postgres/Oracle, Linux',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Tech Lead/Developer',
+      companylogo: require('../assets/img/kclLogo.png'),
+      date: 'O2O서비스 분석/설계/개발, Java/Spring, Mysql',
     },
+    {
+      role: 'Tech Lead/Developer',
+      companylogo: require('../assets/img/finmartLogo2.png'),
+      date: '핀테크 서비스 분석/설계/개발, Java/Spring, Mysql',
+    }, 
   ]
 }
 

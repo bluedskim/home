@@ -43,7 +43,7 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="Learn more about me"
           >
-            More about me
+            더 알아보기
           </a>
         </Container>
       </Jumbotron>

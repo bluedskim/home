@@ -55,7 +55,7 @@ const Navigation = React.forwardRef((props, ref) => {
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
             >
-              Projects
+              공개 프로젝트
             </Nav.Link>
           )}
           <Nav.Link
@@ -64,14 +64,14 @@ const Navigation = React.forwardRef((props, ref) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Resume
+            이력서/포트폴리오
           </Nav.Link>
           {about.show && (
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
-              About
+              소개
             </Nav.Link>
           )}
           {skills.show && (
@@ -79,7 +79,7 @@ const Navigation = React.forwardRef((props, ref) => {
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#skills"}
             >
-              Skills
+              기술
             </Nav.Link>
           )}
         </Nav>

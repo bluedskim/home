@@ -26,7 +26,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                       width={imageSize.width}
                       height={imageSize.height}
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption style={{'background-color':"gray"}}>
                       <h3>{value.label}</h3>
                       <p>
                         {value.paragraph}
